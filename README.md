@@ -31,4 +31,4 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### License
 
-MIT License. Copyright (c) 2016 **_Scott Holland, Jr._**
+MIT License. Copyright (c) 2016 **_Battle Cats, Inc._**
