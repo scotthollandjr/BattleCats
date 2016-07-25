@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    tools:context="com.example.guest.battlecats.NewGameActivity">
+
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button4"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:width="1dp"
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Column 2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Column 2" />
+
+    </TableRow>
+
+</TableLayout>
