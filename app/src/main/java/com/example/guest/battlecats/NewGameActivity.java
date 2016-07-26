@@ -19,11 +19,9 @@ import butterknife.ButterKnife;
 
 public class NewGameActivity extends AppCompatActivity {
     private String mCellId;
-    @Bind(R.id.tableLayout1)
-    TableLayout mTableLayout1;
-    ArrayList ships = new ArrayList();
-    HashMap<String, String> grid = new HashMap<>();
-    grid.add("","");
+    @Bind(R.id.tableLayout1) TableLayout mTableLayout1;
+    ArrayList<Ship> ships = new ArrayList();
+    int[] ship2numbers = {09,19,29,39,49,59,69,79,89,99};
 
 
     @Override
@@ -44,23 +42,65 @@ public class NewGameActivity extends AppCompatActivity {
         shipSetter(ships);
     }
 
-    public void shipSetter(ArrayList ships){
-        for(int i = 0; i<ships.size(); i++) {
+    public void shipSetter(ArrayList<Ship> ships){
+        for (Ship ship : ships) {
             Random r = new Random();
             int n = r.nextInt(2);
-            if (n == 0) {
-                //Lay Horizontal
-                Random rand = new Random();
-                int m = rand.nextInt(100);
-                for(int j =0; j<grid.size(); j++){
-                 grid(j).setShip(i);
+            if (n == 0) { //Lay Horizontal
+                if (ship.getLength() == 2) {
+                    int rando = getRandomStart();
+                        if (!(ship2numbers.equals(rando))) {
+                            System.out.println("hELLO");
+                    }
+//                    start over;
                 }
-            } else if (n == 1) {
-                //Lay Vertical
-                Toast.makeText(NewGameActivity.this, "Vertical", Toast.LENGTH_SHORT).show();
+//                if (ship.getLength() == 3) {
+//                    Integer rando = getRandomStart();
+//                    startingPosition.charAt(1) != 8,9;
+//                    start over;
+//                }
+//                if (ship.getLength() == 4) {
+//                    Integer rando = getRandomStart();
+//                    startingPosition.charAt(1) != 7,8,9;
+//                    start over;
+//                }
+//                if (ship.getLength() == 5) {
+//                    Integer rando = getRandomStart();
+//                    startingPosition.charAt(1) != 6,7,8,9,10;
+//                    start over;
+//                }
+
             }
+
+//
+//            else if (n == 1) { //Lay vertical
+//                if (ships(i).getLength == 2) {
+//                    startingPosition.charAt(0) != 9;
+//                    start over;
+//
+//                } else if (ships(i).getLength == 3) {
+//                    startingPosition.charAt(0) != 8,9;
+//                    start over;
+//
+//                } else if (ships(i).getLength == 4) {
+//                    startingPosition.charAt(0) != 7,8,9;
+//                    start over;
+//
+//                } else if (ships(i).getLength == 5) {
+//                    startingPosition.charAt(0) != 6,7,8,9;
+//                    start over;
+//
+//                } else {
+//                    run actual method;
+//                }
+//            }
         }
 }
+    public int getRandomStart() {
+        Random r = new Random();
+        int n = r.nextInt(100);
+        return n;
+    }
 
     public void boxSelect(View v) {
         String gridId = this.mCellId;
@@ -82,5 +122,5 @@ public class NewGameActivity extends AppCompatActivity {
 ////        }
 ////    }
 
-}
+};
 

@@ -8,6 +8,7 @@ public class Ship{
     private Integer length;
     private String name;
     private ArrayList<String> cells = new ArrayList<>();
+    private Integer startingPoint;
 
     public Ship(Integer length, String name){
         this.length=length;
@@ -24,5 +25,9 @@ public class Ship{
 
     public String getName() {
         return this.name;
+    }
+
+    public Integer getStartingPoint() {
+        return this.startingPoint;
     }
 }
