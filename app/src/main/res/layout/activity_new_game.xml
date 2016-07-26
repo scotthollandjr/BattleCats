@@ -4,215 +4,1131 @@
     android:id="@+id/tableLayout1"
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
-    tools:context="com.example.guest.battlecats.NewGameActivity">
+    tools:context="com.example.guest.battlecats.NewGameActivity"
+    android:background="#ddffffff">
 
-    <!-- 2 columns -->
     <TableRow
-        android:id="@+id/tableRow1"
-        android:layout_width="wrap_content"
+        android:id="@+id/tableRowTitle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dip" >
+        android:layout_marginTop="5dp">
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button4"
-            android:text="Column 2" />
+        <TextView
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t0"
+            android:onClick="boxSelect"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="1"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t1"
+            android:onClick="boxSelect"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="2"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t2"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="3"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t3"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="4"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t4"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="5"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t5"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="6"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t6"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="7"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t7"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="8"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t8"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="9"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t9"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:text="10"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/t10"
+            android:layout_marginRight="5dp"/>
 
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dip" >
+        android:layout_marginTop="5dp">
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="A"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/at"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell00"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell01"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell02"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell03"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell04"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell05"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell06"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell07"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell08"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell09"
+            android:layout_marginRight="5dp"/>
 
     </TableRow>
 
     <TableRow
-        android:id="@+id/tableRow1"
-        android:layout_width="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dip" >
+        android:layout_marginTop="5dp">
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="B"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/bt"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell10"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell11"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell12"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell13"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell14"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell15"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell16"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell17"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell18"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell19"
+            android:layout_marginRight="5dp"/>
 
     </TableRow>
 
     <TableRow
-        android:id="@+id/tableRow1"
-        android:layout_width="wrap_content"
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dip" >
+        android:layout_marginTop="5dp">
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="C"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/ct"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell20"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell21"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:width="1dp"
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell22"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell23"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell24"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell25"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell26"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button2"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell27"
+            android:layout_marginRight="5dp"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:text="Column 2" />
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell28"
+            android:layout_marginRight="5dp"/>
 
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell29"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="D"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/dt"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell30"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell31"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell32"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell33"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell34"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell35"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell36"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell37"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell38"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell39"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="E"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/et"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell40"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell41"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell42"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell43"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell44"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell45"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell46"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell47"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell48"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell49"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="F"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/ft"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell50"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell51"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell52"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell53"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell54"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell55"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell56"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell57"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell58"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell59"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="G"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/gt"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell60"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell61"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell62"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell63"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell64"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell65"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell66"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell67"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell68"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell69"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="H"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/ht"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell70"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell71"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell72"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell73"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell74"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell75"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell76"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell77"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell78"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell79"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="I"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/it"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell80"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell81"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell82"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell83"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell84"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell85"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell86"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell87"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell88"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell89"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="J"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="25sp"
+            android:id="@+id/jt"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell90"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell91"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell92"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell93"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell94"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell95"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell96"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell97"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell98"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:background="#c6a3b0ce"
+            android:width="30dp"
+            android:height="30dp"
+            android:textSize="30sp"
+            android:id="@+id/cell99"
+            android:layout_marginRight="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     </TableRow>
 
 </TableLayout>
